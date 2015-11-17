@@ -31,9 +31,9 @@ public class DemoRunner {
             httpSecurity
                     .authorizeRequests()
                     .anyRequest()
-                    .authenticated()
-                    .and()
-                    .httpBasic();
+                    .permitAll();
+
+            httpSecurity.csrf().disable();
         }
     }
 
