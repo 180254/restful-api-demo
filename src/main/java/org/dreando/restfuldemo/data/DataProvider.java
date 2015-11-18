@@ -13,8 +13,8 @@ public class DataProvider {
     private final List<Student> students = new ArrayList<>(10);
 
     public DataProvider() {
-        students.add(new Student(1, "Aaa"));
-        students.add(new Student(2, "BBB"));
+        students.add(new Student(1, "Marcin J"));
+        students.add(new Student(2, "Andrzej P"));
     }
 
     public List<Student> getStudents() {
